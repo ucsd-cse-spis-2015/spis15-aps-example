@@ -137,3 +137,17 @@ ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA1yTFW/PkiZCebbR9EqkduGCApKwW7uy7CZ1ThomgG+xZ
 Your public key will look different, but similar.  You are now going to to do a "copy/paste" of that key into a page of github.com.   Our next step is to navigate to the correct page of github.com to enter that key.
 
 
+## Go to the github.com settings menu
+
+As shown here:
+
+![github.com settings menu](/images/ssh-key-setup/01-github-settings-menu.png)
+
+## Choose the ssh keys menu option
+
+![Choose the ssh keys menu option](/images/ssh-key-setup/02-ssh-keys-menu-option.png)
+![](/images/ssh-key-setup/03-click-Add-SSH-key.png)
+![](/images/ssh-key-setup/04-copy-your-ssh-public-key.png)
+![](/images/ssh-key-setup/05-paste-in-your-ssh-public-key.png)
+![](/images/ssh-key-setup/06-github-asks-for-your-password.png)
+![](/images/ssh-key-setup/07-SPIS-key-added.png)
