@@ -167,7 +167,7 @@ As shown here.  Be careful to get the whole key, but nothing more than the key. 
 
 Github may ask for your password as shown here:
 
-![github asks for your password](/images/ssh-key-setup/06-github-asks-for-your-password.png)
+<img src="/images/ssh-key-setup/06-github-asks-for-your-password.png" alt="asks for password" width="200" >
 
 Then you should get a message that your key was added:
 
