@@ -18,7 +18,7 @@ Now, the spis15bb partner also needs her/his own (a) terminal window and (b) bro
 
 Here's how to do that:
 
-* Open a second terminal window.  In that window, type: ssh `spis15bb@ieng6-240.ucsd.edu`.   The spis15bb partner can type in her/his password.
+* Open a second terminal window.  In that window, type: `ssh spis15bb@ieng6-240.ucsd.edu`.   The spis15bb partner can type in her/his password.
 * In your web browser, open a "Incognito" or "Private Browsing" window.   In that window, the second partner can log in to his/her github.com account.
 
 Now, without having to log out and log back in completely, you can have both a terminal window and github.com browser window
