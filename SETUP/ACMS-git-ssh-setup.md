@@ -145,9 +145,29 @@ As shown here:
 
 ## Choose the ssh keys menu option
 
+As shown here:
+
 ![Choose the ssh keys menu option](/images/ssh-key-setup/02-ssh-keys-menu-option.png)
-![](/images/ssh-key-setup/03-click-Add-SSH-key.png)
-![](/images/ssh-key-setup/04-copy-your-ssh-public-key.png)
-![](/images/ssh-key-setup/05-paste-in-your-ssh-public-key.png)
-![](/images/ssh-key-setup/06-github-asks-for-your-password.png)
-![](/images/ssh-key-setup/07-SPIS-key-added.png)
+
+## Click Add SSH key
+
+As shown here:
+
+
+![Click Add SSH key](/images/ssh-key-setup/03-click-Add-SSH-key.png)
+
+## Copy your SSH public key
+
+As shown here.  Be careful to get the whole key, but nothing more than the key.  Don't include the shell prompts or the cat command.
+
+![Copy your ssh public key](/images/ssh-key-setup/04-copy-your-ssh-public-key.png)
+
+![paste in your ssh public key](/images/ssh-key-setup/05-paste-in-your-ssh-public-key.png)
+
+Github may ask for your password as shown here:
+
+![github asks for your password](/images/ssh-key-setup/06-github-asks-for-your-password.png)
+
+Then you should get a message that your key was added:
+
+![github confirms that key was added](/images/ssh-key-setup/07-SPIS-key-added.png)
