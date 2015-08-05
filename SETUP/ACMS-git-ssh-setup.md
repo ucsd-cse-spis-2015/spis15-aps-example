@@ -26,7 +26,15 @@ for both  partner one, and partner two.
 
 BE SURE TO DO ALL OF THE STEPS BELOW, SEPARATELY, FOR EACH PARTNER.
 
+## Step 0: Set up your account for git:
 
+Type in these two commands, substituting your name and email in place of Phill's:
+
+```
+[spis15t7@ieng6-240]:spis15-aps-example:380$ git config --global user.name "Phill Conrad"
+[spis15t7@ieng6-240]:spis15-aps-example:381$ git config --global user.email "pconrad@ucsd.edu"
+[spis15t7@ieng6-240]:spis15-aps-example:382$ 
+```
 
 ## Step 1: Set up an ssh key on your ACMS account.
 
