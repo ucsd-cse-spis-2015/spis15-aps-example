@@ -2,7 +2,9 @@
 
 ## Pairs: Separate sessions for each partner ON THE SAME SCREEN.
 
-The following steps need to be done for each pair partner.  That means you need a terminal session for each pair partner, and a github.com browser session for each partner.
+The following steps need to be done for each pair partner.  That means you need a terminal session for each pair partner, and a github.com browser session for each partner, like this:
+
+![SPIS multiple sessions](/images/SPIS_multiple_sessions.png)
 
 But you do NOT need two computers for this.  Here's how to do this on the same computer.
 
