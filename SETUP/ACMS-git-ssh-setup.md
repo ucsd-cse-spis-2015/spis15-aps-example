@@ -2,7 +2,9 @@
 
 ## Pairs: Separate sessions for each partner ON THE SAME SCREEN.
 
-The following steps need to be done for each pair partner.  That means you need a terminal session for each pair partner, and a github.com browser session for each partner.
+The following steps need to be done for each pair partner.  That means you need a terminal session for each pair partner, and a github.com browser session for each partner, like this:
+
+![SPIS multiple sessions](/images/SPIS_multiple_sessions.png)
 
 But you do NOT need two computers for this.  Here's how to do this on the same computer.
 
@@ -106,3 +108,32 @@ list below, then try it on your own account.
 .gconf         .nautilus        Music
 [spis15t7@ieng6-240]:~:357$ 
 ```
+
+# Step 2: cd into your .ssh directory
+
+Now, type the command `cd ~/.ssh` at the Terminal prompt.
+
+Then do `ls`
+
+You should see two files `id_rsa` and `id_rsa.pub` as follows.  (If you see other files, don't worry)
+
+```
+[spis15t7@ieng6-240]:.ssh:361$ cd ~/.ssh
+[spis15t7@ieng6-240]:.ssh:362$ ls
+id_rsa  id_rsa.pub
+[spis15t7@ieng6-240]:.ssh:363$ 
+```
+
+You want to now look at the contents of `id_rsa.pub`, which is your **public** key.  That is the one you are going to share with github.com.   (The contents of `id_rsa` are your private key, which you do NOT share. )
+
+To see the contents of id_rsa.pub, we use the cat command:
+
+```
+[spis15t7@ieng6-240]:.ssh:363$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA1yTFW/PkiZCebbR9EqkduGCApKwW7uy7CZ1ThomgG+xZsVgWWIMirzkNJbahxwwEVIH0Hj+irID3ICkH8o60T3QiMk1v5VJSVFaKdqtiZXFQapYR2Rwln1wf2XXBCT/cdVWif9usiS5vLqtno74/dpKCEiELjGSHdpFTyFoF3ZHR6plFYA2/iX4XWDrDJwG/Qwf+SBd0uzIy7CpFrQK+9kMWDrK2jUGhd0goYPQu2LCgHxnu8R041M5ooSUE79seE+64gVcjoSfPJwdKhZdwy2zjYvKKz0CM4w3ysPbOpr1FkT6MnlhN3dyJBFA+BjmtXGVDNl7a5yjtY9QzORILfQ== spis15t7@ieng6-240
+[spis15t7@ieng6-240]:.ssh:364$ 
+```
+
+Your public key will look different, but similar.  You are now going to to do a "copy/paste" of that key into a page of github.com.   Our next step is to navigate to the correct page of github.com to enter that key.
+
+
