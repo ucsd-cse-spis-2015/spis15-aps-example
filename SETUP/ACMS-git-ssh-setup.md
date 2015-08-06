@@ -18,7 +18,7 @@ Now, the spis15bb partner also needs her/his own (a) terminal window and (b) bro
 
 Here's how to do that:
 
-* Open a second terminal window.  In that window, type: ssh `spis15bb@ieng6-240.ucsd.edu`.   The spis15bb partner can type in her/his password.
+* Open a second terminal window.  In that window, type: `ssh spis15bb@ieng6-240.ucsd.edu`.   The spis15bb partner can type in her/his password.
 * In your web browser, open a "Incognito" or "Private Browsing" window.   In that window, the second partner can log in to his/her github.com account.
 
 Now, without having to log out and log back in completely, you can have both a terminal window and github.com browser window
@@ -26,7 +26,15 @@ for both  partner one, and partner two.
 
 BE SURE TO DO ALL OF THE STEPS BELOW, SEPARATELY, FOR EACH PARTNER.
 
+## Step 0: Set up your account for git:
 
+Type in these two commands, substituting your name and email in place of Phill's:
+
+```
+[spis15t7@ieng6-240]:spis15-aps-example:380$ git config --global user.name "Phill Conrad"
+[spis15t7@ieng6-240]:spis15-aps-example:381$ git config --global user.email "pconrad@ucsd.edu"
+[spis15t7@ieng6-240]:spis15-aps-example:382$ 
+```
 
 ## Step 1: Set up an ssh key on your ACMS account.
 
